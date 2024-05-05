@@ -1,0 +1,28 @@
+nav {
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      background-color: #f0f0f0;
+      border-bottom: 2px solid #ccc;
+  
+      li {
+        margin: 0 15px;
+        font-size: 18px;
+  
+        a {
+          text-decoration: none;
+          color: #333;
+          font-weight: bold;
+          padding: 10px;
+  
+          &:hover {
+            background-color: #ddd;
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,36 @@
+/* posts.component.scss */
+
+/* Kontener dla pojedynczego posta */
+.post-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: translateY(-5px);
+    }
+  
+    h3 {
+      color: #333333;
+      font-size: 18px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+  
+    p {
+      color: #666666;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  }
+  
+  /* Styl dla kontenera postów */
+  .posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
