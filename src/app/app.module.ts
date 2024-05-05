@@ -12,11 +12,11 @@ import { PostDetailComponent } from './post-detail/post-detail.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 
-// Importy Angular Material
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -28,6 +28,7 @@ import { MatIconModule } from '@angular/material/icon';
     ContactComponent
   ],
   imports: [
+    MatCardModule, 
     BrowserModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
